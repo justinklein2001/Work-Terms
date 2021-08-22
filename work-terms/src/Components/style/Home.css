@@ -1,0 +1,11 @@
+.home-page {
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  z-index: 100;
+}
+
+.bg-my-red{
+    background-color: brown;
+    border-color: rgb(165, 42, 42);
+}
