@@ -31,12 +31,12 @@ function NavBar(props) {
                 <Nav>
                     <Nav.Item>
                         <Nav.Link className="justify-content-end" href="https://github.com/justinklein2001">
-                            <img src={props.git} height="35px" alt="github" width="35px"/>
+                            <img src={props.git} height="20px" alt="github" width="20px"/>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link className="align-right-logo" href="https://www.linkedin.com/in/justinklein2001/">
-                            <img src={props.linked} height="35px" alt="linked in" width="35px"/>
+                            <img src={props.linked} height="20px" alt="linked in" width="20px"/>
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>

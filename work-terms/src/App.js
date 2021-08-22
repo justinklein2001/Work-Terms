@@ -15,7 +15,7 @@ function App() {
       <div className="section" id="home">
       <NavBar logo={home_logo} git={git_logo} linked={linked_logo}></NavBar>
         <Home/>
-        <ParticlesBg type="circle" num={4} color="#a52a2a" bg={true}/>  
+        <ParticlesBg type="circle" num={5} color="#a52a2a" bg={true}/>  
      
       </div>
       
