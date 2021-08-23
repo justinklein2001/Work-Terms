@@ -1,0 +1,51 @@
+
+.row-border{
+    /*border: 10px solid blue;*/
+    padding-top: 15%;
+}
+
+
+.red-box {
+    border-bottom: 4px solid brown;
+    width: 400px;
+
+}
+
+.paragraph-box{
+    width: 80%;
+    padding-top: 5%;
+    /*padding: 1% 1% 1% 1%;*/
+    text-align: left !important;
+}
+
+.copy {
+    padding-top: 1%;
+}
+
+.offset{
+    padding-top: 20%;
+}
+
+.my-pic {
+ 
+    object-fit: contain; 
+    box-shadow: 20px 20px rgba(0,0,0,.1);
+    transition: all .4s ease;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+  }
+  
+  .my-pic:hover {
+    box-shadow: 10px 10px rgba(0,0,0,.20);
+}
+
+
+.stack-divs{
+    padding-top: 25%;
+    text-align: left !important;
+    width: 335px;
+}
