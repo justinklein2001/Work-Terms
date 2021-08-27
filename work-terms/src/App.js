@@ -1,23 +1,28 @@
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
+import Section3 from './Components/Section3';
+import CarouselWork from './Components/CarouselWork';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
 import ParticlesBg from 'particles-bg';
 import 'react-bootstrap/dist/react-bootstrap.min.js';
-import home_logo from './images/home_logo.png'
-import git_logo from './images/GitHub-Mark-Light-32px.png'
-import linked_logo from './images/linkedin-icon-18-256.png'
-import about_img from './images/temp.jpg'
+import home_logo from './images/home_logo.png';
+import git_logo from './images/GitHub-Mark-Light-32px.png';
+import linked_logo from './images/linkedin-icon-18-256.png';
+import about_img from './images/temp.jpg';
 import './Components/style/App.css';
 import AboutMe from './data/AboutMe';
 import MyStack from './data/MyStack';
+import Education from './data/Education';
 import { useState } from 'react';
+
 
 function App() {
 
   //settomg the information
   const [about] = useState(AboutMe);
   const [stack] = useState(MyStack);
+  const [education] = useState(Education);
 
 
   return (
@@ -35,12 +40,14 @@ function App() {
       <div className="" id="my-stack">
         <Section2 data={stack} />
       </div>
+      <div className="" id="education">
+        <Section3 data={education} img={about_img}/>
+      </div>
+      
       <div className="" id="co-op">
-        <Section1 data={about} img={about_img}/>
+        <CarouselWork/>
       </div>
-      <div className="" id="school">
-        <Section1 data={about} img={about_img}/>
-      </div>
+
       <div className="" id="extra-curriculars">
         <Section1 data={about} img={about_img}/>
       </div>

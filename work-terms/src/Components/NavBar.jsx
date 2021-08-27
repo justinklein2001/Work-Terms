@@ -23,8 +23,8 @@ function NavBar(props) {
                     
                     <Nav.Link href="#about-me">About Me</Nav.Link>    
                     <Nav.Link href="#my-stack">My Stack</Nav.Link>
+                    <Nav.Link href="#education">Education</Nav.Link>
                     <Nav.Link href="#co-op">Co-Op</Nav.Link>  
-                    <Nav.Link href="#school">School</Nav.Link>
                     <Nav.Link href="#extra-curriculars">Extra-Curriculars</Nav.Link>
                     <Nav.Link href="#contact-me">Contact Me</Nav.Link>
                 </Nav>

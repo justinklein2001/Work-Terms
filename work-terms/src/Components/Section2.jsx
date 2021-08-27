@@ -10,10 +10,10 @@ function Section2(props) {
     
 return (
 
-    <Container fluid className="main-container">
+    <Container fluid className="term-main">
        <Row className="main-row">
             {/*left side of section*/}
-            <Col xs={12} md={7}className="col-section">
+            <Col xs={12} md={6}className="col-section">
                 
                 {/*section title*/}
                 <Row className="row-border">
@@ -32,9 +32,8 @@ return (
                 </Row>
             </Col>
             {/*right side of section*/}
-            <Col xs={12} md={5} className="col-section">
-                <Row>
-                    <div className="stack-divs">
+            <Col xs={12} md={3} className="stack-divs">
+                
                         <h4>Tech Stack:</h4>
                         <p><b>C:</b> <i>[Extremely Proficient]</i></p>
                         <ProgressBar animated variant="danger" now={90}/>
@@ -46,9 +45,10 @@ return (
                         <ProgressBar animated variant="danger" now={70}/>
                         <p><b>SQL:</b> <i>[Novice]</i></p>
                         <ProgressBar animated variant="danger" now={50}/>
-                    </div>
-
-                    <div className="stack-divs">
+            </Col>
+            {/*right side of section*/}
+            <Col xs={12} md={3} className="stack-divs">
+        
                         <h4>Interpersonal Stack:</h4>
                         <p><b>Time Management:</b> <i>[Extremely Proficient]</i></p>
                         <ProgressBar animated variant="danger" now={100}/>
@@ -60,8 +60,7 @@ return (
                         <ProgressBar animated variant="danger" now={85}/>
                         <p><b>Adaptability:</b> <i>[Proficient]</i></p>
                         <ProgressBar animated variant="danger" now={80}/>
-                    </div>
-                </Row>
+               
             </Col>
         </Row> 
     </Container>
