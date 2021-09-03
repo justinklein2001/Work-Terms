@@ -52,4 +52,19 @@
 
 .term-main{
     padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.education-div {
+    max-width: 50%;
+    padding-top: 8%;
+}
+
+
+.no-bllt {
+    list-style-type: none;
+}
+
+.pad-btm{
+    padding-bottom: 4%;
 }

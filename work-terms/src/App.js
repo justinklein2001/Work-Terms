@@ -1,6 +1,7 @@
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
 import Section3 from './Components/Section3';
+import Section4 from './Components/Section4';
 import CarouselWork from './Components/CarouselWork';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
@@ -10,9 +11,14 @@ import home_logo from './images/home_logo.png';
 import git_logo from './images/GitHub-Mark-Light-32px.png';
 import linked_logo from './images/linkedin-icon-18-256.png';
 import about_img from './images/temp.jpg';
+import ec_1 from './images/hackathon.png';
+import ec_2 from './images/wizards.png';
+import ec_3 from './images/gkic.png';
+import ec_4 from './images/singer.jpg';
 import './Components/style/App.css';
 import AboutMe from './data/AboutMe';
 import MyStack from './data/MyStack';
+import ExtraCurriculars from './data/ExtraCurriculars';
 import Education from './data/Education';
 import { useState } from 'react';
 
@@ -23,6 +29,7 @@ function App() {
   const [about] = useState(AboutMe);
   const [stack] = useState(MyStack);
   const [education] = useState(Education);
+  const [extraCurriculars] = useState(ExtraCurriculars);
 
 
   return (
@@ -49,7 +56,13 @@ function App() {
       </div>
 
       <div className="" id="extra-curriculars">
-        <Section1 data={about} img={about_img}/>
+        <Section4 
+          data={extraCurriculars} 
+          img1={ec_1}
+          img2={ec_2}
+          img3={ec_3}
+          img4={ec_4}
+        />
       </div>
       <div className="" id="contact-me">
         <Section1 data={about} img={about_img}/>
