@@ -1,13 +1,15 @@
 
-.row-border{
+.row-border-contact{
     /*border: 10px solid blue;*/
-    padding-top: 15%;
+    padding-top: 0%;
 }
 
-
+.offset-mail {
+    padding-top: 5%;
+}
 .red-box {
     border-bottom: 4px solid brown;
-    width: 50%;
+    width: 450px;
 
 }
 
@@ -53,4 +55,20 @@
 
 .term-main{
     padding-bottom: 10%;
+}
+
+.contact-form{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left !important;
+}
+
+.bg-my-red-btn{
+    background-color: brown;
+    border-color: rgb(165, 42, 42);
+
+}
+.bg-my-red-btn:hover{
+  background-color: black;
+  border-color: black;
 }

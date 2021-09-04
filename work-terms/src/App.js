@@ -10,7 +10,7 @@ import 'react-bootstrap/dist/react-bootstrap.min.js';
 import home_logo from './images/home_logo.png';
 import git_logo from './images/GitHub-Mark-Light-32px.png';
 import linked_logo from './images/linkedin-icon-18-256.png';
-import about_img from './images/temp.jpg';
+import about_img from './images/justin2.jpg';
 import ec_1 from './images/hackathon.png';
 import ec_2 from './images/wizards.png';
 import ec_3 from './images/gkic.png';
@@ -21,6 +21,8 @@ import MyStack from './data/MyStack';
 import ExtraCurriculars from './data/ExtraCurriculars';
 import Education from './data/Education';
 import { useState } from 'react';
+import Section5 from './Components/Section5';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -65,8 +67,9 @@ function App() {
         />
       </div>
       <div className="" id="contact-me">
-        <Section1 data={about} img={about_img}/>
+        <Section5/>
       </div>
+      <Footer linked={linked_logo} git={git_logo}/>
 
 
     </div>

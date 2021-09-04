@@ -6,7 +6,7 @@
 
 .red-box {
     border-bottom: 4px solid brown;
-    width: 400px;
+    width: 50%;
 
 }
 
@@ -18,7 +18,8 @@
 }
 
 .copy {
-    padding-top: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
 }
 
 .offset{
@@ -80,4 +81,10 @@
 
 .pad-card-bd {
     margin-top: 20%;
+}
+
+.ec-underline {
+    border-bottom: 4px solid brown;
+    width: 800px;
+
 }

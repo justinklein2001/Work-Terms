@@ -6,7 +6,7 @@
 
 .red-box {
     border-bottom: 4px solid brown;
-    width: 400px;
+    width: 50%;
 
 }
 
@@ -23,6 +23,11 @@
 
 .offset{
     padding-top: 20%;
+}
+
+.offset-bc{
+    padding-top: 12%;
+    padding-bottom: 5%;
 }
 
 .my-pic {
@@ -58,11 +63,13 @@
 .education-div {
     max-width: 50%;
     padding-top: 8%;
+    padding-bottom: 4%;
 }
 
 
 .no-bllt {
     list-style-type: none;
+    padding-right: 12%;
 }
 
 .pad-btm{

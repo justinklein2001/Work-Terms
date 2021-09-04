@@ -1,0 +1,22 @@
+.footer-bg {
+    background-color: brown;
+    color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.old:link {
+    color: white;
+}
+
+.old:hover {
+    color: white;
+}
+
+.old:active {
+    color: white;
+}
+
+.old {
+    color: white;
+}

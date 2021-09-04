@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/Section3.css';
 import { Col, Container, Row, Card, CardGroup } from 'react-bootstrap';
+import { BriefcaseFill } from 'react-bootstrap-icons';
 
 function Section3(props) {
     
@@ -12,9 +13,12 @@ return (
         <Row>
             <Col xs={12} md={6}className="col-section">
                 <Row>
-                    <div className="text-left mx-auto red-box">
+                    <div className="text-center mx-auto red-box">
                         <h1 className="display-2">{props.data.title}</h1>
                     </div>
+                </Row>
+                <Row className="offset-bc">
+                    <BriefcaseFill color="brown" size={75}/>
                 </Row>
                 <Row className="text-left">
                 <ul className="list-group mx-auto education-div">
@@ -36,11 +40,11 @@ return (
                         <br/>
                         <Card.Text>
                             <h6>Project Stack:</h6>
-                            <ul className="text-left no-bllt">
-                                <li>  -{props.data.stack11}</li>
-                                <li>  -{props.data.stack12}</li>
-                                <li>  -{props.data.stack13}</li>
-                                <li>  -{props.data.stack14}</li>
+                            <ul className="no-bllt">
+                                <li>{props.data.stack11}</li>
+                                <li>{props.data.stack12}</li>
+                                <li>{props.data.stack13}</li>
+                                <li>{props.data.stack14}</li>
                             </ul>
                             {props.data.desc1}
                         </Card.Text>
@@ -55,10 +59,10 @@ return (
                         <br/>
                         <Card.Text>
                             <h6>Project Stack:</h6>
-                            <ul className="text-left no-bllt">
-                                <li>  -{props.data.stack21}</li>
-                                <li>  -{props.data.stack22}</li>
-                                <li>  -{props.data.stack23}</li>
+                            <ul className="no-bllt">
+                                <li>{props.data.stack21}</li>
+                                <li>{props.data.stack22}</li>
+                                <li>{props.data.stack23}</li>
                                 <li></li>
                             </ul>
                             {props.data.desc2}
@@ -74,9 +78,9 @@ return (
                         <br/>
                         <Card.Text>
                             <h6>Project Stack:</h6>
-                            <ul className="text-left no-bllt">
-                                <li>  -{props.data.stack31}</li>
-                                <li>  -{props.data.stack32}</li>
+                            <ul className="no-bllt">
+                                <li>{props.data.stack31}</li>
+                                <li>{props.data.stack32}</li>
                                 <li></li>
                                 <li></li>
                             </ul>

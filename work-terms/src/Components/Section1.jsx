@@ -16,7 +16,7 @@ return (
                 
                 {/*section title*/}
                 <Row className="row-border">
-                    <div className=" text-left mx-auto red-box">
+                    <div className=" text-center mx-auto red-box">
                         <h1 className="display-2">{props.data.title}</h1>
                     </div>
                         <h4 className="lead copy"><i><b>"{props.data.copy}"</b></i></h4>

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import './style/Section3.css';
+import './style/Section4.css';
 import {Container, Row, Card, CardGroup, Button } from 'react-bootstrap';
 import song from '../audio/song.mp3';
 function Section4(props) {
@@ -10,7 +10,11 @@ return (
 
     <Container fluid className="term-main">
         <Row>
-            <h1>{props.data.title}</h1>
+        <div className=" text-center mx-auto ec-underline">
+            <h1 className="display-2">{props.data.title}</h1>
+        </div>
+            <h4 className="lead copy"><i><b>"What I do when I'm not solving seg faults"</b></i></h4>  
+            
         </Row>
         <Row>
             <CardGroup>
@@ -25,7 +29,11 @@ return (
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <Button variant="outline-secondary">Learn More</Button>
+                    <Button 
+                        variant="outline-secondary"
+                        href="https://www.linkedin.com/company/gryphhacks/about/"
+                    >
+                    Learn More</Button>
                     </Card.Footer>
                 </Card>
                 {/*Young Writer*/}
@@ -44,7 +52,11 @@ return (
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <Button variant="outline-secondary">Learn More</Button>
+                    <Button 
+                        variant="outline-secondary"
+                        href="https://www.wizardacademy.org/product/young-writers-workshop-july-18-19/"
+                    >
+                        Learn More</Button>
                     </Card.Footer>
                 </Card>
                 {/*Young Entrepreneur*/}
@@ -58,7 +70,10 @@ return (
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <Button variant="outline-secondary">Learn More</Button>
+                    <Button 
+                        variant="outline-secondary"
+                        href="https://www.prweb.com/releases/2017/02/prweb14063679.htm"
+                    >Learn More</Button>
                     </Card.Footer>
                 </Card>
                 {/*Music Writing*/}
