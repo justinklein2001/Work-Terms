@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e2156097-f146-47fc-9c5e-310e31fb38d6/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/justinklein",
+    "appService.deploySubpath": "work-terms/build"
+}
