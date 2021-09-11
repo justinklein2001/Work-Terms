@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/Section4.css';
 import {Container, Row, Card, CardGroup, Button } from 'react-bootstrap';
-import song from '../audio/song.mp3';
 function Section4(props) {
     
     
@@ -84,16 +83,13 @@ return (
                     <br/>
                     <Card.Text>
                         {props.data.ec4Desc}
-                        <br/>
-                        <br/>
-                        <i>Here's a <b>work in progress</b> preview of the title track; "Place you Oughta Be"</i>
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <audio controls>
-                            <source src={song} type="audio/mpeg"/>
-                            Your browser does not support the audio element.
-                        </audio>
+                    <Button 
+                        variant="outline-secondary"
+                        href="https://distrokid.com/hyperfollow/justinklein1/place-you-oughta-be"
+                    >Learn More</Button>
                     </Card.Footer>
                 </Card>
 

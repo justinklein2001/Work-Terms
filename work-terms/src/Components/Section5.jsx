@@ -4,29 +4,40 @@ import './style/Section5.css';
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 import { useState } from 'react';
 import { EnvelopeFill } from 'react-bootstrap-icons';
+import emailjs from 'emailjs-com';
 
 function Section5() {
 
     const [validated, setValidated] = useState(false);
+    const [sent, setSent] = useState(false);
 
-    const handleSubmit = (event) => {
-        const form = event.currentTarget;
-        if (form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
-        } else {
-
-        }
-        setValidated(true);
-    };
-
-    //sets the values of the from, in adherence to the values in the dm form
+    //sets the values of the contact form
     const [values, setValues] = useState({
         fullName: "",
         subject: "",
         message: "",
+        email: ""
 
     });
+
+    const handleSubmit = (event) => {
+        const form = event.currentTarget;
+        /*check for validation using react-bootstrap solution*/
+        if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+        /*using emailjs service to send email to maintain serverless solution*/
+        } else { 
+            event.preventDefault(); 
+            emailjs.sendForm('service_007vg8k', 'contact_form', event.target, 'user_cA92XpmaqddpElyBgxE1a')
+            .then((result) => {
+                setSent(true);
+            }, (error) => {
+                setSent(false);
+            });
+        }
+        setValidated(true);
+    };
 
     /** change handler, grabs the previous state's values
      *  and overides them with the new state
@@ -66,6 +77,8 @@ return (
                         <Form.Control 
                             type="text"
                             required
+                            placeholder=""
+                            name="fullName"
                             onChange={handleChange}
                             value={values.fullName}     
                         />
@@ -75,10 +88,27 @@ return (
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Subject</Form.Label>
+                        <Form.Label>Email:</Form.Label>
+                        <Form.Control 
+                            type="email"
+                            required
+                            placeholder=""
+                            name="email"
+                            onChange={handleChange}
+                            value={values.email}
+                        />
+                        <Form.Control.Feedback type="invalid">
+                            Please provide a response email.
+                        </Form.Control.Feedback>
+                    </Form.Group>
+
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Subject:</Form.Label>
                         <Form.Control 
                             type="text"
                             required
+                            placeholder=""
+                            name="subject"
                             onChange={handleChange}
                             value={values.subject}
                         />
@@ -86,10 +116,13 @@ return (
                             Please provide a subject.
                         </Form.Control.Feedback>
                     </Form.Group>
+                    
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Message</Form.Label>
+                        <Form.Label>Message:</Form.Label>
                         <Form.Control 
-                            as="textarea" 
+                            as="textarea"
+                            placeholder=""
+                            name="message" 
                             rows={5}
                             required 
                             onChange={handleChange}
@@ -102,6 +135,10 @@ return (
                     <Button className="bg-my-red-btn" type="submit">
                         Submit
                     </Button>
+                    {sent === true &&                         
+                        <Form.Control.Feedback type="valid">
+                            Message sent!
+                        </Form.Control.Feedback> }
                 </Form>
             </Col>
 

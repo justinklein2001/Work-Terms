@@ -68,7 +68,7 @@
     border-color: rgb(165, 42, 42);
 
 }
-.bg-my-red-btn:hover{
+.bg-my-red-btn:hover :active :focus :visited {
   background-color: black;
   border-color: black;
 }
