@@ -1,4 +1,12 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/e2156097-f146-47fc-9c5e-310e31fb38d6/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/justinklein",
+<<<<<<< Updated upstream
     "appService.deploySubpath": "."
+=======
+<<<<<<< HEAD
+    "appService.deploySubpath": "work-terms/build"
+=======
+    "appService.deploySubpath": "."
+>>>>>>> v1.4-ui-done
+>>>>>>> Stashed changes
 }
