@@ -1,0 +1,16 @@
+.home-page {
+  justify-content: center;
+  align-items: center;
+  padding-top: 45vh;
+  z-index: 100;
+}
+
+.bg-my-red-btn{
+    background-color: brown;
+    border-color: rgb(165, 42, 42);
+
+}
+.bg-my-red-btn:hover{
+  background-color: black;
+  border-color: black;
+}

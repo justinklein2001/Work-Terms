@@ -1,0 +1,29 @@
+.co-op-main{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left !important;
+   
+}
+
+.red-underline {
+    border-bottom: 4px solid brown;
+    width: 340px;
+    margin-left: 2%;
+}
+
+.goal-checklist {
+    background: brown;
+}
+
+.ul-chck{
+    list-style-type: none;
+}
+
+.img-pad {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.arrows {
+    background-color: brown !important;
+}
