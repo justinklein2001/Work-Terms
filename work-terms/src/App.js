@@ -10,7 +10,7 @@ import 'react-bootstrap/dist/react-bootstrap.min.js';
 import home_logo from './images/home_logo.png';
 import git_logo from './images/GitHub-Mark-Light-32px.png';
 import linked_logo from './images/linkedin-icon-18-256.png';
-import about_img from './images/justin2.jpg';
+import about_img from './images/justinklein.jpg';
 import ec_1 from './images/hackathon.png';
 import ec_2 from './images/wizards.png';
 import ec_3 from './images/gkic.png';

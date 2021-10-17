@@ -19,7 +19,7 @@ return (
             </Button>{' '}
             <Button 
                 className="bg-my-red-btn fs-6"
-                href=""
+                href="../files/Justin_Klein _Resume_Website.pdf"
             >
                 Résumé
             </Button>
