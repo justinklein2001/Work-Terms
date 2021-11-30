@@ -1,18 +1,19 @@
 let NCR= {
     title: "SOFTWARE DEVELOPER",
-    company: "NCR",
+    company: "NCR CORPORATION",
     termDate: "Sep '21 - Dec '21",
-    about: "",
-    goal1: "",
-    goal2: "",
-    goal3: "",
-    goal4: "S",
-    goalParagraph: "",
-    projectTitle: "",
-    project1: "",
-    project2: "",
-    project3: "",
-    conclusions:""
+    about: "NCR is the world’s leading enterprise technology provider of software, hardware and services for banks, retailers, restaurants, small businesses, and telecommunication providers. I joined the API Toolkit Draft Team at the Waterloo headquarters. On this team I had the opportunity to work with a wide range of technologies and participated in standard software development practices.",
+    goal1: "Develop a thorough understanding of container virtualisation using Docker & Kubernetes",
+    goal2: "Comprehend how the Draft Team was able to build its own API",
+    goal3: "Expand my familiarity and practice with Agile/Scrum methodologies",
+    goal4: "To make a real impact on my team",
+    goalParagraph: "I achieved all my goals for this work term. I was able work with every technology listed and had multiple opportunities to pursue and achieve my other goals. I made everyone on the team put on their webcams during our daily stand-ups, so I like to think I made a real impact!",
+    description: "As a Software Developer on the API Toolkit Draft team, I developed new features, fixed bugs and developed tests for the various repositories related to my team’s central product, API Toolkit (new name pending). In pursuit of this development, I was given the opportunity to work with technologies I’ve been eager to use, including Jenkins, Docker, Kubernetes, and Spring.", 
+    projectTitle: "API Toolkit",
+    project1: "API Toolkit, my team’s central product, acts as an intermediary framework to allow other internal NCR teams to build their APIs. It included a wide range of features in addition to this core functionality, such as cloud sandboxes, graphical representation of API workflows, and a custom UI for testing, deployment, and development of APIs. It was nifty stuff. Working on this product required me to learn a new framework, programming language or crucial programming principal with every new JIRA story I took on. It was an amazing experience to expand my capabilities as a developer.",
+    project2: "Getting real hands-on development work on such a complex software product enabled me to learn a lot of lessons that the classroom was never able to teach me. This reality reinforced my love for experimental learning, as the Co-op program truly enables a student to acquire all the skills they need to excel in the workforce. While my role was full stack in nature, I found myself being drawn to stories that revolved primarily around build pipelines and cloud computing processes.",
+    project3: "Cloud computing has been a keen area of interest of mine, that my academic studies have yet to touch upon. Seeing an opportunity to learn more, I took on any story that was related to Jenkins pipeline builds, used Docker containers or connected to Kubernetes clusters. I still have much to learn on these topics, but this work term taught me that this is a side of computer science that I am very interested in and should consider pursuing in my future career.",
+    conclusions:"My work term at NCR taught me a wide range or lessons and skills that I will be sure to utilize in all my future endeavours. I got to work with an amazing team, who was always supportive of my learning, and were ready to answer any questions I could throw their way. We developed a strong team relationship, where work was completed at a good pace and laughs were always shared. I’d say we had a great time working together. I’d like to touch on a few personal thank you’s, including Jasmeet Jagdev, my team’s tech lead, for always answering all my questions and keeping me on track. I would also like to say thank you to my fellow Guelph alumni Ian Bennet and Kamran Fekri, for not only answering all my questions, but also giving me exceptional advice on how to make the rest of my time at the University of Guelph amazing."
 }
 
 module.exports = NCR;
