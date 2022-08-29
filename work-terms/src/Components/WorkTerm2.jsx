@@ -65,7 +65,7 @@ return (
             {/*Main project visual*/}
             <Row>
                 <img src={props.img} height="250px" className="square-logo" alt="NCR Logo"></img>
-                <p>API Toolkit is in active development, visuals are not available.</p>
+                <p>{props.img_caption}</p>
             </Row>
             {/*Conclusions*/}
             <Row>

@@ -11,7 +11,6 @@ import home_logo from './images/home_logo.png';
 import git_logo from './images/GitHub-Mark-Light-32px.png';
 import linked_logo from './images/linkedin-icon-18-256.png';
 import about_img from './images/justinklein.jpg';
-import ec_1 from './images/hackathon.png';
 import ec_2 from './images/wizards.png';
 import ec_3 from './images/gkic.png';
 import ec_4 from './images/singer.jpg';
@@ -60,7 +59,6 @@ function App() {
       <div className="" id="extra-curriculars">
         <Section4 
           data={extraCurriculars} 
-          img1={ec_1}
           img2={ec_2}
           img3={ec_3}
           img4={ec_4}

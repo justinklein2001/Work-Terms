@@ -17,24 +17,6 @@ return (
         </Row>
         <Row>
             <CardGroup>
-                {/*Gryphhacks*/}
-                <Card>
-                    <Card.Img variant="top"  src={props.img1} />
-                    <Card.Body>
-                    <Card.Title>{props.data.ec1Title}</Card.Title>
-                    <br/>
-                    <Card.Text>
-                        {props.data.ec1Desc}
-                    </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                    <Button 
-                        variant="outline-secondary"
-                        href="https://www.linkedin.com/company/gryphhacks/about/"
-                    >
-                    Learn More</Button>
-                    </Card.Footer>
-                </Card>
                 {/*Young Writer*/}
                 <Card>
                     <br/>

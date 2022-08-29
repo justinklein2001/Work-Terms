@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/Home.css';
 import {  Button } from 'react-bootstrap';
-import resume from '../files/Justin_Klein_Resume_Website.pdf' 
+import resume from '../files/Justin_Klein_Resume_2022.pdf' 
 function Home() {
 
     

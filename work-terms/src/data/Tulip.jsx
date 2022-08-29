@@ -1,0 +1,19 @@
+let Tulip= {
+    title: "SOFTWARE DEVELOPER",
+    company: "TULIP RETAIL",
+    termDate: "May '22 - Aug '22",
+    about: "Tulip Retail is a software company that has built a retail mobile software platform that industry giants such as Chanel, Kate Spade and Michael Kors put in the hands of their store associates to provide an excellent, personzalized shopping experience. I worked on the LiveConnect & Appointments team during this 4 month remote work-term.",
+    goal1: "Gain more experience with the CLI architecture between different containers/products within the Tulip product suite",
+    goal2: "Be a productive member of my team",
+    goal3: "Complete a full user story individually and be the sole person responsible for its completion",
+    goal4: "Get more comfortable with asking for assistance when I require it in a work-from-home office environment",
+    goalParagraph: "I achieved all of my goals for this work term. I was able to gain experience with every technology listed and had multiple opportunities to pursue and achieve my other goals.",
+    description: "As a full stack developer on the LiveConnect & Appointments team, I developed new features, fixed bugs and developed tests for various repositories related to my team’s central product offerings. In pursuit of this development, I was able to work on features that required critical thinking in relation to stable implementation and scalability.", 
+    projectTitle: "LiveConnect & Appointments",
+    project1: "LiveConnect & Appointments is Tulip’s answer to personalized and prompt retail customer service. LiveConnect aims to automate the process of connecting customers to store associates through the use of a chatbot system. Appointments enables customers to make personalized shopping appointments with associates in high-end retail stores. Both products required drastically different integrations and implementations, which made this work-term my most technically challenging one yet.",
+    project2: "The biggest feature I developed during this work-term was the integration of Appointments with Tulip’s flagship product offering: Clienteling. This epic feature aimed to enable associates to make appointments with customers through the Clienteling iOS app. I worked closely with a mobile developer on my team to push this epic to production. My contributions included adding the back end infrastructure to allow the Clienteling application to call Appointments functionality.",
+    project3: "This feature proved to be challenging, as there was no conceivable way to develop it locally or access logs. I had to exclusively develop using GitLab, containers and external servers. This allowed me to deepen my understanding of CI/CD pipelines and cloud computing architecture. It also reinforced the importance of thinking through complex programming decisions, as this feature gave me no opportunity to make an educated guess and validate if it was correct. While sometimes frustrating, I have no doubt it made me a better developer.",
+    conclusions:"My work term at Tulip Retail reinforced the technical skills I’ve been developing since my first work term, and opened my eyes to new ones. I worked alongside an amazing mentor, Vadym, who’s raw technical genius, amazed me in every interaction. He exposed me to various methodologies, such as Clean architecture, that fundamentally made me rethink software development as a whole. This is the single greatest lesson that this work term taught me. Also, Lindsay, a former University of Guelph alumn, was an amazing mentor and friend that made me feel valued as a part of Tulip. While I will take away lots of technical knowledge from this work term, these two individuals left the greatest impact and taught me lessons I will utilize for the rest of my career."
+}
+
+module.exports = Tulip;
