@@ -35,16 +35,16 @@ return (
             <Col xs={12} md={3} className="stack-divs">
                 
                         <h4>Tech Stack:</h4>
-                        <p><b>C:</b> <i>[Extremely Proficient]</i></p>
+                        <p><b>React:</b> <i>[Extremely Proficient]</i></p>
                         <ProgressBar animated variant="danger" now={90}/>
-                        <p><b>React:</b> <i>[Proficient]</i></p>
-                        <ProgressBar animated variant="danger" now={80}/>
                         <p><b>Node.js:</b> <i>[Proficient]</i></p>
                         <ProgressBar animated variant="danger" now={80}/>
-                        <p><b>Java:</b> <i>[Intermediate]</i></p>
-                        <ProgressBar animated variant="danger" now={70}/>
-                        <p><b>SQL:</b> <i>[Novice]</i></p>
-                        <ProgressBar animated variant="danger" now={50}/>
+                        <p><b>PHP:</b> <i>[Proficient]</i></p>
+                        <ProgressBar animated variant="danger" now={80}/>
+                        <p><b>SQL:</b> <i>[Proficient]</i></p>
+                        <ProgressBar animated variant="danger" now={80}/>
+                        <p><b>C:</b> <i>[Proficient]</i></p>
+                        <ProgressBar animated variant="danger" now={80}/>
             </Col>
             {/*right side of section*/}
             <Col xs={12} md={3} className="stack-divs">
