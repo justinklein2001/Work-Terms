@@ -17,7 +17,7 @@ let Education= {
     stack22: "Python",
     stack23: "GitLab",
     desc2: "Collaborated in a group of 8 to build a course selection web app that allowed a user to select and drop multiple courses offered by the University of Guelph in the Fall and Winter semesters of 2022",
-    footer2: "CIS*3250 Project",
+    footer2: "CIS*3760 Project",
     project3: "Object-Oriented Storefront",
     stack31: "Java",
     stack32: "Gradle",
