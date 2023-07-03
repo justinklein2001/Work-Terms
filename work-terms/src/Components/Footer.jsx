@@ -11,9 +11,9 @@ return (
 
 <Container className="footer-bg" fluid id="footer">
     <Row>        
-        <h5>&copy; Copyright 2021, Justin Klein<br/>
+        <h5>&copy; Copyright 2022, Justin Klein<br/>
         Developed using React.js & React-Bootstrap<br/>
-        v1.0 of the site can be seen <a className="old" href="https://justinklein.ca">here</a></h5>
+        v1.0 of the site can be seen <a className="old" href="https://github.com/justinklein2001/Website">here</a></h5>
     </Row>
     <Row>
         <div>
