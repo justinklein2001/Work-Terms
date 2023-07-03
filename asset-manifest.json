@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Work-Terms/static/css/main.6edf3d68.css",
+    "main.js": "/Work-Terms/static/js/main.0d3a16cf.js",
+    "static/js/787.db4033ae.chunk.js": "/Work-Terms/static/js/787.db4033ae.chunk.js",
+    "static/media/justinklein.jpg": "/Work-Terms/static/media/justinklein.0801678ca4d201142a5f.jpg",
+    "static/media/adknown.jpg": "/Work-Terms/static/media/adknown.a78f2893eb7a03e1015a.jpg",
+    "static/media/DMForm.png": "/Work-Terms/static/media/DMForm.16d079781043c8c64db7.png",
+    "static/media/gkic.png": "/Work-Terms/static/media/gkic.90f446b1f30483234f0d.png",
+    "static/media/singer.jpg": "/Work-Terms/static/media/singer.0702d82edcc023a1ad53.jpg",
+    "static/media/Justin_Klein_Resume_2022.pdf": "/Work-Terms/static/media/Justin_Klein_Resume_2022.941bab595a2495a8d2b0.pdf",
+    "static/media/appointments.png": "/Work-Terms/static/media/appointments.9138d45bb8248c156f14.png",
+    "static/media/ncr.png": "/Work-Terms/static/media/ncr.f58a4c5266ef6829d351.png",
+    "static/media/home_logo.png": "/Work-Terms/static/media/home_logo.7776c9765ec9aacc483a.png",
+    "index.html": "/Work-Terms/index.html",
+    "main.6edf3d68.css.map": "/Work-Terms/static/css/main.6edf3d68.css.map",
+    "main.0d3a16cf.js.map": "/Work-Terms/static/js/main.0d3a16cf.js.map",
+    "787.db4033ae.chunk.js.map": "/Work-Terms/static/js/787.db4033ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6edf3d68.css",
+    "static/js/main.0d3a16cf.js"
+  ]
+}
